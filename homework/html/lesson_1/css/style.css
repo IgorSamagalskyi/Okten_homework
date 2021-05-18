@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+h2{
+    color: coral;
+}
+.round {
+    border-radius: 5px;
+    border: 2px solid #663546;
+    box-shadow: 0 0 6px #777;
+    margin: 5px;
+}
