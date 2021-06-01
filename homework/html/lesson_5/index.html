@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="nav_content">
+    <div class="wrapper">
+        <div class="header-top">
+            <div class="nav_logo">
+                <a href="https://owu.com.ua/"><img src="img/logo.png" alt=""></a>
+            </div>
+            <nav class="nav_header">
+                <div class="nav_item"><a href="#">Курси</a></div>
+                <div class="nav_item"><a href="#">Блог</a></div>
+                <div class="nav_item"><a href="#">Про нас</a></div>
+                <div class="nav_item"><a href="#">Галерея</a></div>
+                <div class="nav_item"><a href="#">Відгуки</a></div>
+            </nav>
+            <div class="nav_button">
+                <button>Замовити Зворотній Звязок</button>
+            </div>
+            <div class="mobile_button">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="first-screen">
+    <div class="first-screen_left">
+        <h3>Школа програмування Октен веб</h3>
+        <h1> Получити ІТ-професію, з <br> <span>100% гарантією </span>працевлаштування.</h1>
+        <div class="first-screen_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa cupiditate doloribus dolorum, eos
+                illum nihil nulla optio quidem voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum eaque et magni quaerat quis quos
+                temporibus. Error molestias, quaerat.</p>
+        </div>
+        <div class="button_center">
+            <button class="first-screen_left__button">Пройти тест на ІТ-профорієнтацію</button>
+        </div>
+    </div>
+
+    <div class="first_screen_right">
+
+        <div class="okten_school">
+            <h2>Октен
+               <span>Школа</span>
+            </h2>
+
+            <p>програмування</p>
+        </div>
+        <div class="play_button_wrap">
+            <div class="play_button">
+                <div class="play_button__item"><i class="fas fa-play"></i></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    document.querySelector('.mobile_button').onclick = function (){
+        document.querySelector('.header-top').classList.toggle('active')
+    }
+</script>
+
+</body>
+</html>

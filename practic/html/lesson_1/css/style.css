@@ -6,10 +6,11 @@
 }
 
 .father {
-    width: 100%;
-    margin: 0 auto;
+    /*width: 100%;*/
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 1280px;
 }
 
 /*.flex{*/
@@ -17,41 +18,64 @@
 /*    justify-content: space-around;*/
 
 
-.wrapper{
+.wrapper {
     margin: 0 auto;
     width: 100vw;
     height: 32px;
     display: flex;
     align-items: center;
 }
-.language-wrapper{
-    display: flex;
-    justify-content: space-between;
+
+.nav_item {
+    font-size: 18px;
+    font-weight: 900;
 }
 
-.menu-content{
+.menu-content {
     width: 100vw;
     height: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #fff;
     background: brown;
 }
-.title p{
+
+.language-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+}
+
+.menu p {
+    padding-left: 10px;
+}
+
+.title h1 {
+    font-size: 28px;
+}
+
+.title p {
     font-size: 11px;
     text-align: center;
 }
-.language-wrapper{
-    width: 150px;
 
-}
-.language-wrapper p{
+.language-wrapper p {
     margin-right: 20px;
     font-size: 12px;
     font-weight: 800;
 }
+
 button {
-    width: 100%;
+    width: 100px;
     border-radius: 50px;
     background: #d74545;
     border: 3px solid #fff;
@@ -61,35 +85,13 @@ button {
     font-weight: 800;
     font-size: 11px;
 }
-/*background-color: #f4f4f4;*/
-/*height: 92px;*/
-/*display: flex;*/
-/*border-bottom: 1px solid #97b4fe;*/
-/*.wrapper {*/
-/*    margin: 0 auto;*/
-/*    width: 100%;*/
-/*    max-width: 1410px;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
 
-/*.nav_logo img {*/
-/*    height: 60px;*/
-/*    width: 234px;*/
-/*    border-radius: 6px;*/
-/*}*/
+.ads {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 
-
-/*.nav_button button {*/
-/*    width: 100%;*/
-/*    border-radius: 5px;*/
-/*    background: #fff;*/
-/*    border: 2px solid #97b4fe;*/
-/*    box-sizing: border-box;*/
-/*    color: #97b4fe;*/
-/*    height: 60px;*/
-/*    font-weight: 800;*/
-/*}*/
+}
 
 .nav_item a {
     font-weight: 500;
@@ -105,4 +107,121 @@ nav {
     justify-content: center;
     column-gap: 25px;
     flex-grow: 1;
+}
+
+.main-content {
+    width: 1280px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.covid-header h3 {
+    position: relative;
+    top: 35px;
+    left: 81px;
+    width: 188px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    color: #721010;
+}
+.covid-header p{
+    position: relative;
+    top: -22px;
+    left: 79px;
+    text-align: left;
+    font-size: 14px;
+}
+.info-covid {
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+
+.block-1-covid {
+    width: 23%;
+    height: fit-content;
+    border: 1px solid #777777;
+    margin-right: 2.66666%;
+}
+
+.block-2-covid {
+    width: 23%;
+    height: fit-content;
+    border: 1px solid #777777;
+    margin-right: 2.66666%;
+}
+
+.block-3-covid {
+    width: 23%;
+    height: fit-content;
+    border: 1px solid #777777;
+    margin-right: 2.66666%;
+}
+
+.block-4-covid {
+    width: 23%;
+    height: fit-content;
+    border: 1px solid #777777;
+}
+
+.block-1-covid h3,
+.block-2-covid h3,
+.block-3-covid h3,
+.block-4-covid h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 34px;
+}
+
+.block-1-covid p,
+.block-2-covid p,
+.block-3-covid p,
+.block-4-covid p{
+    padding: 4px  7px;
+    font-size: 14px;
+}
+
+.block-1-covid img,
+.block-2-covid img,
+.block-3-covid img,
+.block-4-covid img{
+    padding-right: 9px;
+}
+
+
+
+.block-1-info{
+    width: 50%;
+}
+.news-all{
+    width: 50%;
+    height: auto;
+}
+.news{
+    width: 100%;
+    height: auto;
+}
+.news img{
+    width: 100%;
+}
+.news-all-2{
+    width: 50%;
+}
+.block-2-info{
+    display: flex;
+    width: 50%;
+    flex-direction: column
+}
+.block-2-info img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.block-2-info h3{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 28px;
 }

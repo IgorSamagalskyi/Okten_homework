@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, p, a, li{
+    font-family: 'Open Sans', sans-serif;
+}
+.father{
+
+}
+
+/*=============================menu====================*/
+.border-menu{
+    border: 1px solid #C4C4C4;
+}
+.menu{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    column-gap: 56px;
+}
+nav div a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 60px;
+    align-items: center;
+    color: #000000;
+    letter-spacing: .12ex;
+}
+nav div a:hover{
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.soc ul {
+    display: flex;
+    column-gap: 24px;
+}
+.soc ul li {
+    list-style: none;
+    font-weight: bold;
+}
+.soc ul li:hover{
+    color: #30ABAE;
+    cursor: pointer;
+}
+/*=============================menu-end====================*/
+.block{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+
+}
+h1{
+    padding-top: 34px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 96px
+}
+.category p{
+    margin-top: 56px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 20px;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 15px 0 18px 0;
+}
+.tags div{
+    border: 1px solid #E4E4E4;
+    width: 210px;
+    border-radius: 50px;
+
+}
+span .all-tags{
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #30ABAE;
+}
+.tags div a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #414141;
+    padding-left: 20px;
+}
+.tags div:hover{
+    background: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.menu-tags{
+    width: 33.333%;
+    height: 700px;
+    background-color: coral;
+}
+.box{
+    width: 33.333%;
+    background-color: #30ABAE;
+    border-right: 2px solid #000000;
+}
+
