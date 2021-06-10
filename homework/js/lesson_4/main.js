@@ -222,20 +222,18 @@
 
 
 // ------------------------------------------------------------------------
-// let driver = [{name: 'Dima', age: 13}, {model: 'Camry'}]
-//
-// let arrO = function (arrObj) {
-//     let emptyArr = [];
-//     for (let i = 0; i < arrObj.length; i++) {
-//         for (let arrElement in arrObj[i]) {
-//             emptyArr.push(arrElement.valueOf());
-//         }
-//     }
-//
-// return emptyArr;
-// }
-//
-// console.log(arrO(driver));
+let driver = [{name: 'Dima', age: 13}, {model: 'Camry'}]
+
+let arrO = function (arrObj) {
+    let emptyArr = [];
+    for (let i = 0; i < arrObj.length; i++) {
+        for (let arrElement in arrObj[i]) {
+            emptyArr.push(arrElement);
+        }
+    }
+return emptyArr;
+}
+console.log(arrO(driver));
 
 
 
